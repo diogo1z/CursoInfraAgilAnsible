@@ -11,8 +11,8 @@
 ~Msle0~/\<shell\>
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
 :w
 
 # Search String History (newest to oldest):
@@ -30,21 +30,36 @@
 "1	LINE	0
 	- name: 
 ""-	CHAR	0
-	t
+	d
 
 # File marks:
-'0  1  0  ~/inventario
-'1  6  14  ~/inventario
-'2  2  21  ~/puppet_aula/lamp.pp
-'3  1  0  ~/puppet_aula/lamp.pp
-'4  23  0  ~/puppet_aula/lamp.pp
-'5  22  17  ~/puppet_aula/lamp.pp
-'6  31  0  ~/puppet_aula/lamp.pp
-'7  26  15  ~/puppet_aula/lamp.pp
-'8  15  6  ~/.gitignore
-'9  1  0  ~/.gitignore
+'0  22  39  ~/roles/puppet/tasks/prerequisitos.yml
+'1  14  35  ~/php_centos_playbook.yml
+'2  11  9  ~/php_centos_playbook.yml
+'3  31  0  ~/php_centos_playbook.yml
+'4  3  8  ~/php_centos_playbook.yml
+'5  10  40  ~/php_centos_playbook.yml
+'6  1  0  ~/php_centos_playbook.yml
+'7  17  25  ~/php_centos_playbook.yml
+'8  19  0  ~/php_centos_playbook.yml
+'9  19  65  ~/php_centos_playbook.yml
 
 # Jumplist (newest first):
+-'  22  39  ~/roles/puppet/tasks/prerequisitos.yml
+-'  1  0  ~/roles/puppet/tasks/prerequisitos.yml
+-'  14  35  ~/php_centos_playbook.yml
+-'  1  0  ~/php_centos_playbook.yml
+-'  11  9  ~/php_centos_playbook.yml
+-'  31  0  ~/php_centos_playbook.yml
+-'  3  8  ~/php_centos_playbook.yml
+-'  10  40  ~/php_centos_playbook.yml
+-'  17  25  ~/php_centos_playbook.yml
+-'  19  0  ~/php_centos_playbook.yml
+-'  6  21  ~/php_centos_playbook.yml
+-'  5  0  ~/php_centos_playbook.yml
+-'  36  0  ~/php_playbook.yml
+-'  1  0  ~/php_playbook.yml
+-'  3  11  ~/php_playbook.yml
 -'  1  0  ~/inventario
 -'  6  14  ~/inventario
 -'  2  21  ~/puppet_aula/lamp.pp
@@ -63,12 +78,9 @@
 -'  6  32  ~/roles/puppet/tasks/main.yml
 -'  1  0  ~/roles/puppet/tasks/main.yml
 -'  5  17  ~/roles/puppet/tasks/install_puppet.yml
--'  9  23  ~/roles/puppet/tasks/prerequisitos.yml
--'  1  0  ~/roles/puppet/tasks/prerequisitos.yml
+-'  16  23  ~/roles/puppet/tasks/prerequisitos.yml
 -'  3  40  ~/files/index.php
 -'  1  0  ~/files/index.php
--'  36  0  ~/php_playbook.yml
--'  1  0  ~/php_playbook.yml
 -'  26  7  ~/php_playbook.yml
 -'  28  6  ~/php_playbook.yml
 -'  24  16  ~/php_playbook.yml
@@ -80,7 +92,6 @@
 -'  1  0  ~/php_playbook.
 -'  21  6  ~/php_playbook.yml
 -'  1  0  /var/www/html/index.html
--'  3  12  ~/php_playbook.yml
 -'  4  0  ~/inventario
 -'  17  96  ~/php_playbook.yml
 -'  5  0  ~/inventario
@@ -132,117 +143,105 @@
 -'  14  0  ~/playbook.yml
 -'  1  0  ~/playbook.yml
 -'  1  0  ~/php_playbook.y
--'  1  0  ~/php_playbook.y
--'  14  0  ~/playbook.yml
--'  1  0  ~/playbook.yml
--'  1  0  ~/php_playbook.
--'  1  0  /var/www/html/index.html
--'  11  10  ~/playbook.yml
--'  14  0  ~/playbook.yml
--'  1  0  ~/playbook.yml
--'  1  0  ~/php_playbook.
--'  1  0  /var/www/html/index.html
 
 # History of marks within files (newest to oldest):
 
-> ~/inventario
-	"	1	0
-	^	6	15
-	.	6	14
-	+	4	0
-	+	5	0
-	+	6	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	5	13
-	+	6	14
-
-> ~/puppet_aula/lamp.pp
-	"	2	21
-	^	2	22
-	.	2	21
-	+	1	18
-	+	6	21
-	+	9	20
-	+	10	21
-	+	12	0
-	+	30	23
-	+	17	31
-	+	13	16
-	+	25	30
-	+	26	43
-	+	29	19
-	+	30	23
-	+	29	9
-	+	25	6
-	+	30	19
-	+	26	16
-	+	32	0
-	+	30	22
+> ~/roles/puppet/tasks/prerequisitos.yml
+	"	22	39
+	^	22	40
+	.	23	0
+	+	5	25
+	+	13	0
+	+	16	23
+	+	6	38
+	+	17	40
+	+	17	40
+	+	22	40
+	+	8	48
+	+	2	48
+	+	11	9
+	+	22	40
+	+	20	4
+	+	12	38
+	+	10	9
+	+	11	24
+	+	22	38
 	+	21	6
+	+	14	36
+	+	19	36
 	+	23	0
-	+	21	23
-	+	22	26
-	+	21	14
-	+	22	19
-	+	1	18
-	+	2	21
 
 > ~/.gitignore
-	"	15	6
-	^	15	7
-	.	15	6
-	+	16	0
-	+	15	6
+	"	12	4
+	^	12	5
+	.	12	4
+	+	17	0
+	+	16	6
+	+	12	4
 
-> ~/git.ignore
-	"	14	3
-	^	14	4
-	.	14	3
-	+	4	4
-	+	3	1
-	+	14	3
-
-> ~/roles/puppet/tasks/install_puppet.yml
-	"	11	14
-	^	11	15
-	.	11	14
-	+	4	22
-	+	5	18
+> ~/php_centos_playbook.yml
+	"	1	0
+	^	14	36
+	.	14	35
+	+	9	96
+	+	4	8
+	+	6	68
+	+	9	58
+	+	32	0
+	+	7	8
+	+	9	12
+	+	6	2
+	+	7	3
+	+	8	3
+	+	9	4
 	+	6	21
-	+	9	22
-	+	10	50
-	+	11	14
-
-> ~/roles/puppet/tasks/main.yml
-	"	6	32
-	^	6	33
-	.	6	32
-	+	2	28
-	+	6	32
-
-> ~/roles/puppet/tasks/prerequisitos.yml
-	"	9	23
-	^	9	24
-	.	9	23
-	+	5	25
-	+	6	0
-	+	9	23
-
-> ~/files/index.php
-	"	3	40
-	^	3	41
-	.	3	40
-	+	1	5
-	+	2	0
+	+	19	0
+	+	19	66
+	+	31	12
+	+	19	65
+	+	10	41
+	+	6	36
+	+	19	65
+	+	16	44
+	+	13	1
+	+	14	3
+	+	15	3
+	+	16	15
+	+	17	41
+	+	19	0
+	+	19	27
+	+	19	67
+	+	31	0
+	+	10	26
+	+	17	26
+	+	3	12
+	+	10	40
+	+	3	7
 	+	4	0
-	+	3	40
+	+	3	8
+	+	24	24
+	+	21	19
+	+	25	18
+	+	21	19
+	+	25	0
+	+	29	23
+	+	18	25
+	+	11	24
+	+	31	0
+	+	20	0
+	+	18	13
+	+	11	13
+	+	7	34
+	+	14	34
+	+	18	10
+	+	11	10
+	+	7	35
+	+	14	35
 
 > ~/php_playbook.yml
-	"	36	0
-	^	26	8
-	.	26	7
+	"	34	0
+	^	3	12
+	.	3	11
 	+	28	56
 	+	37	0
 	+	30	1
@@ -295,6 +294,86 @@
 	+	28	6
 	+	27	36
 	+	26	7
+	+	3	11
+
+> ~/inventario
+	"	1	0
+	^	6	15
+	.	6	14
+	+	4	0
+	+	5	0
+	+	6	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	5	13
+	+	6	14
+
+> ~/puppet_aula/lamp.pp
+	"	2	21
+	^	2	22
+	.	2	21
+	+	1	18
+	+	6	21
+	+	9	20
+	+	10	21
+	+	12	0
+	+	30	23
+	+	17	31
+	+	13	16
+	+	25	30
+	+	26	43
+	+	29	19
+	+	30	23
+	+	29	9
+	+	25	6
+	+	30	19
+	+	26	16
+	+	32	0
+	+	30	22
+	+	21	6
+	+	23	0
+	+	21	23
+	+	22	26
+	+	21	14
+	+	22	19
+	+	1	18
+	+	2	21
+
+> ~/git.ignore
+	"	14	3
+	^	14	4
+	.	14	3
+	+	4	4
+	+	3	1
+	+	14	3
+
+> ~/roles/puppet/tasks/install_puppet.yml
+	"	11	14
+	^	11	15
+	.	11	14
+	+	4	22
+	+	5	18
+	+	6	21
+	+	9	22
+	+	10	50
+	+	11	14
+
+> ~/roles/puppet/tasks/main.yml
+	"	6	32
+	^	6	33
+	.	6	32
+	+	2	28
+	+	6	32
+
+> ~/files/index.php
+	"	3	40
+	^	3	41
+	.	3	40
+	+	1	5
+	+	2	0
+	+	4	0
+	+	3	40
 
 > ~/php_playbook.y
 	"	1	0

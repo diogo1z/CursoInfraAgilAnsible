@@ -9,6 +9,7 @@
 *.log.*
 *.sig
 *.deb
+*.rpm
 
 pkg/
 src/

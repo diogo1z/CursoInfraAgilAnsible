@@ -1,6 +1,6 @@
 ---
 - name: Servidor LAMP
-  hosts: prod
+  hosts: dev
   tasks:
     #instalar 2 pacotes = sao apache2, php7
     # habilitar o modulo do php: ap2enmod php
