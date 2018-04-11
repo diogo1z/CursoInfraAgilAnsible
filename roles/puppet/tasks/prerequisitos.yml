@@ -1,0 +1,9 @@
+---
+- name: Configurando repositorio do puppet
+  get_url:
+    url: https://apt.puppetlabs.com/puppet5-release-xenial.deb
+    dest: /tmp/puppet.deb
+
+- name: Instalando repositorio
+  apt:
+    deb: /tmp/puppet.deb

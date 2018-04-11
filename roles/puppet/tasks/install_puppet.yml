@@ -1,0 +1,6 @@
+---
+- name: instalando o puppet
+  apt:
+    name: puppet-agent
+    state: present
+    update_cache: yes

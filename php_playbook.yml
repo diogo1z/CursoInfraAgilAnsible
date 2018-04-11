@@ -1,0 +1,36 @@
+---
+- name: Servidor LAMP
+  hosts: prod
+  tasks:
+    #instalar 2 pacotes = sao apache2, php7
+    # habilitar o modulo do php: ap2enmod php
+    # colocar um inde.php dentro de /var/www/html/ com o conteudo ~hello php!"
+    # <? echo "hello php!"; ?>
+    - name: Garantindo usuario developer
+      user: name=developer state=present
+
+    - name: Instalando pacotes do LAMP
+      apt: name={{item}} state=present
+      with_items:
+      - apache2
+      - php7.0
+      - libapache2-mod-php7.0
+
+    - name: Habilitando o modulo php
+      shell: a2enmod php7.0
+      #notify: Restartando o apache
+
+
+    - name: Colocando hello world
+      copy:
+        src: files/index.php
+        dest: /var/www/html/index.php
+      #shell: echo "<?php echo \"Hello php\"; ?>  " > /var/www/html/index.php
+      notify: Restartando o apache
+ 
+  handlers:
+    - name: Restartando o apache
+      service: 
+        name: apache2
+        state: restarted
+
