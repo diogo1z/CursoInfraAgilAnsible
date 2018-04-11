@@ -33,18 +33,19 @@
 	t
 
 # File marks:
-'0  1  0  ~/.gitignore
-'1  14  3  ~/git.ignore
-'2  11  14  ~/roles/puppet/tasks/install_puppet.yml
-'3  6  20  ~/roles/puppet/tasks/install_puppet.yml
-'4  6  32  ~/roles/puppet/tasks/main.yml
-'5  5  17  ~/roles/puppet/tasks/install_puppet.yml
-'6  9  23  ~/roles/puppet/tasks/prerequisitos.yml
-'7  1  0  ~/roles/puppet/tasks/main.yml
-'8  3  40  ~/files/index.php
-'9  36  0  ~/php_playbook.yml
+'0  15  6  ~/.gitignore
+'1  1  0  ~/.gitignore
+'2  14  3  ~/git.ignore
+'3  11  14  ~/roles/puppet/tasks/install_puppet.yml
+'4  6  20  ~/roles/puppet/tasks/install_puppet.yml
+'5  6  32  ~/roles/puppet/tasks/main.yml
+'6  5  17  ~/roles/puppet/tasks/install_puppet.yml
+'7  9  23  ~/roles/puppet/tasks/prerequisitos.yml
+'8  1  0  ~/roles/puppet/tasks/main.yml
+'9  3  40  ~/files/index.php
 
 # Jumplist (newest first):
+-'  15  6  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  14  3  ~/git.ignore
 -'  1  0  ~/git.ignore
@@ -142,12 +143,15 @@
 -'  1  0  ~/inventario
 -'  6  3  ~/inventario
 -'  1  0  ~/inventario
--'  6  3  ~/inventario
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	1	0
+	"	15	6
+	^	15	7
+	.	15	6
+	+	16	0
+	+	15	6
 
 > ~/git.ignore
 	"	14	3
