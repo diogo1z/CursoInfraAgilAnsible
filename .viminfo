@@ -33,18 +33,24 @@
 	t
 
 # File marks:
-'0  15  6  ~/.gitignore
-'1  1  0  ~/.gitignore
-'2  14  3  ~/git.ignore
-'3  11  14  ~/roles/puppet/tasks/install_puppet.yml
-'4  6  20  ~/roles/puppet/tasks/install_puppet.yml
-'5  6  32  ~/roles/puppet/tasks/main.yml
-'6  5  17  ~/roles/puppet/tasks/install_puppet.yml
-'7  9  23  ~/roles/puppet/tasks/prerequisitos.yml
-'8  1  0  ~/roles/puppet/tasks/main.yml
-'9  3  40  ~/files/index.php
+'0  2  21  ~/puppet_aula/lamp.pp
+'1  1  0  ~/puppet_aula/lamp.pp
+'2  23  0  ~/puppet_aula/lamp.pp
+'3  22  17  ~/puppet_aula/lamp.pp
+'4  31  0  ~/puppet_aula/lamp.pp
+'5  26  15  ~/puppet_aula/lamp.pp
+'6  15  6  ~/.gitignore
+'7  1  0  ~/.gitignore
+'8  14  3  ~/git.ignore
+'9  11  14  ~/roles/puppet/tasks/install_puppet.yml
 
 # Jumplist (newest first):
+-'  2  21  ~/puppet_aula/lamp.pp
+-'  1  0  ~/puppet_aula/lamp.pp
+-'  23  0  ~/puppet_aula/lamp.pp
+-'  22  17  ~/puppet_aula/lamp.pp
+-'  31  0  ~/puppet_aula/lamp.pp
+-'  26  15  ~/puppet_aula/lamp.pp
 -'  15  6  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  14  3  ~/git.ignore
@@ -137,14 +143,39 @@
 -'  1  0  ~/php_playbook.
 -'  1  0  /var/www/html/index.html
 -'  11  10  ~/playbook.yml
--'  1  0  ~/php_playbook.y
--'  14  0  ~/playbook.yml
--'  1  0  ~/playbook.yml
--'  1  0  ~/inventario
--'  6  3  ~/inventario
--'  1  0  ~/inventario
 
 # History of marks within files (newest to oldest):
+
+> ~/puppet_aula/lamp.pp
+	"	2	21
+	^	2	22
+	.	2	21
+	+	1	18
+	+	6	21
+	+	9	20
+	+	10	21
+	+	12	0
+	+	30	23
+	+	17	31
+	+	13	16
+	+	25	30
+	+	26	43
+	+	29	19
+	+	30	23
+	+	29	9
+	+	25	6
+	+	30	19
+	+	26	16
+	+	32	0
+	+	30	22
+	+	21	6
+	+	23	0
+	+	21	23
+	+	22	26
+	+	21	14
+	+	22	19
+	+	1	18
+	+	2	21
 
 > ~/.gitignore
 	"	15	6
