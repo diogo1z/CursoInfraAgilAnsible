@@ -1,6 +1,6 @@
 ---
 - name: Instalacao do puppet
-  hosts: prod
+  hosts: dev
   tasks: 
     - include: prerequisitos.yml
     - include: install_puppet.yml

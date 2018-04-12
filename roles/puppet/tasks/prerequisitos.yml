@@ -18,5 +18,6 @@
 
 - name: Instalando repositorio CentOS
   yum:
-    rpm: /tmp/puppet.rpm
+    name: /tmp/puppet.rpm
+    state: present
   when: ansible_distribution == "CentOS"
